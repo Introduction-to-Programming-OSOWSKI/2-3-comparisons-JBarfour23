@@ -1,5 +1,4 @@
 def greaterThan(x , y):
-    if (x > y):
        return x>y
           
 def lessThan(x, y):
