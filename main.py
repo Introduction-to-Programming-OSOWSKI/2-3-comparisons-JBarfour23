@@ -1,16 +1,15 @@
 def greaterThan(x , y):
     if (x > y):
-        print("True")
+       return x>y
+          
+def lessThan(x, y):
+    return  x<y
 
-        else:
-            print("False")
+def equalTo(x,y):
+    return x == y
 
+def greaterOrEqual(x,y):
+    return x>=y
 
-           
-def lessThan():
-    
-def equalTo():
-
-def greaterOrEqual():
-
-def lessOrEqual():
+def lessOrEqual(x,y):
+    return x<=y
